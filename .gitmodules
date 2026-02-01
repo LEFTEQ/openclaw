@@ -1,0 +1,3 @@
+[submodule "vendor/pi-mono"]
+	path = vendor/pi-mono
+	url = git@github.com:LEFTEQ/pi-mono.git

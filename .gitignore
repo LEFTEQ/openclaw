@@ -31,7 +31,9 @@ Core/
 apps/ios/*.xcodeproj/
 apps/ios/*.xcworkspace/
 apps/ios/.swiftpm/
-vendor/
+# Vendor is ignored except for pi-mono submodule
+vendor/*
+!vendor/pi-mono
 apps/ios/Clawdbot.xcodeproj/
 apps/ios/Clawdbot.xcodeproj/**
 apps/macos/.build/**
